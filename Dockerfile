@@ -5,5 +5,5 @@ FROM httpd:latest
 MAINTAINER "adarshmc28@gmail.com"
 
 
-# copy the our liitle fashion application fiel from source to destination httpd conatiner location 
+# copy the our resturant application fiel from source to destination httpd conatiner location 
 COPY  ./ /usr/local/apache2/htdocs/
